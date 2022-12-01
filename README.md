@@ -42,3 +42,10 @@ Concepts and fundamentals of testing in applications and software, what is a tes
   - Uma *string* para descrever;
   - Uma *função callback* para executar o teste.
 + Gerar relatório com o *coverage*, uma ferramenta integrada do *jest* para cobertura de testes, que possibilita identificar caminhos não testados no código.
+
+## 3. Implementado testes
+**Habiliadades desenvolvidas neste tópico:**
+* Usar *matchers* para diferentes formas de testes, comparando igualdade, inclusão, erros e propriedades de valores;
+* Alinhar o uso do *matcher* com asserções e estrutura de dados para utilizar em arrays, partes de objetos e conjuntos;
+* Identificar as situações de **"falso positivo"**, por meio da análise do percentual de cobertura com a *flag --coverage*; e
+* Reconhecer que nem sempre quando obtivermos 100% de cobertura de acordo com um relatório estaremos realmente testando todo o código.
